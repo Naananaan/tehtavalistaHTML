@@ -1,0 +1,62 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color: #ffdffd;
+}
+
+input {
+    margin-bottom: 16px;
+    background-color:#fff1fe;
+    color:#7c0076;
+    font-size: 20px;
+    border: 2px solid #7c0076;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+h3 {
+    font-size: 30px;
+    color:#7c0076;
+    background-color: #cfdaff;
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+span {
+    display: inline-block;
+    padding: 10px 8px;
+    background-color:#ffb9fb;
+    color: #073ea4;
+    border-radius: 10px;
+    border: 2px solid #073ea4;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+}
+
+table {
+    width: 60%;
+}
+
+tr:nth-child(even) {
+    background-color: #cfdaff;
+    color:#073ea4;
+}
+
+tr:nth-child(odd){
+    background-color: #ffb9fb;
+    color:#7c0076;
+    
+}
+td {
+    padding: 8px;
+}
+.deleteButton {
+    background-color:#f9dde0; 
+    color: rgb(172, 0, 0);
+    border: 2px solid ;  
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    transition: background-color 0.9s ease; 
+}
